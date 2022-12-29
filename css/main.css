@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+    background: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content {
+    max-width: 1300px;
+}
+
+.photo-1 {
+    max-width: 600px;
+    max-height: 595px;
+}
+.photo-4 {
+    max-width: 476px;
+}
+
+.header-desc{
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 110px;
+}
+
+.header-desc-1 {
+    font-size: 28px;
+}
+
+.header-desc-2{
+    font-size: 39px;
+}
+
+.header-desc-3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 71px;
+}
+
+.header-desc-4{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.header-desc-5{
+    font-size: 28px;
+}
+
+.header-desc-6{
+    font-size: 40px;
+}
+
+.pricing {
+   
+    z-index: -1;
+  
+}
+
+.circle2 {
+    background-color: rgb(241, 245, 248);
+    width: 400px;
+    height: 800px;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 2200px;
+}
+
+.pricing-1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #FEB331;
+}
+
+.border-1{
+    background-color: white;
+}
+
+.box-shadow {
+    border-radius: 10px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* line-height: 24px !important; */
+}
+
+.btn-primary {
+    background-color: #FEB331;
+    border-color: transparent;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.size {
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-1{
+  background-color: orange;
+  font-size: 25px;
+  border-radius: 30px;
+}
+
+.color-background{
+    color:#FEB331;
+    font-size: 100px;
+}
+
+.photo-3{
+    max-width: 465px;
+    max-height: 491px;
+}
+
+.footer {
+    background: #FEB331;
+    margin-left: 1px;
+}
+
+/* .footer-wrapper {
+    max-width: 1300px !important;
+} */
+
+.cost-care {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cost-care-menu {
+    font-size: 20px;
+}
+
+.cost-care-menu a {
+    color:black;
+    text-decoration: none;
+}
+
+.cost-core-menu-1{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.product {
+    line-height: 15px;
+}
+
+
+    .photo-1, .photo-3, .photo-4 {
+        max-width: 100%;
+    }
+
+
+    .header-desc {
+        font-size: 70px;
+    }
+
+    .photo-6{
+        max-width: 100%;
+    }
+
+    .kamera{
+        color:#F5BB1B;
+    }
+
+    .ongkos{
+        color:#FEB331;
+    }
+
+    .size-1{
+        font-weight: 500;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .circle {
+        background-color: rgb(241, 245, 248);
+        width: 400px;
+        height: 800px;
+        border-top-right-radius: 400px;
+        border-bottom-right-radius: 400px;
+        position: absolute;
+        z-index: -1;
+        margin-left: -12px;
+        margin-top: 1100px;
+    }
+
+
+
+    @media(max-width: 767px) {
+        .circle, .circle2 {
+            width: 300px;
+            height: 600px;
+        }
+       
+    }
+
+
+  
